@@ -3,8 +3,8 @@ from django.http import HttpResponse
 
 def index(request):
     context = {
-        'title': 'Home',
-        'content': 'Главная страница магазина Home',
+        "title": "Home - Главная",
+        "content": "Магазин мебели HOME",
     }
     return render(request, 'main/index.html', context)
 
